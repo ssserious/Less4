@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.example.TriangleTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.355 s <<< FAILURE! - in org.example.TriangleTest
+org.example.TriangleTest.test2(int, int, int, double)[1]  Time elapsed: 0.055 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2.0> but was: <2.828427124761903>
+	at org.example.TriangleTest.test2(TriangleTest.java:31)
+
+org.example.TriangleTest.test2(int, int, int, double)[2]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2.0> but was: <3.799671038392666>
+	at org.example.TriangleTest.test2(TriangleTest.java:31)
+
+org.example.TriangleTest.test2(int, int, int, double)[3]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0> but was: <4.14578099794425>
+	at org.example.TriangleTest.test2(TriangleTest.java:31)
+
